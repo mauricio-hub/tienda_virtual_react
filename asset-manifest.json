@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/tienda_virtual_react/static/js/main.6cebdde9.chunk.js",
+    "main.js.map": "/tienda_virtual_react/static/js/main.6cebdde9.chunk.js.map",
+    "runtime-main.js": "/tienda_virtual_react/static/js/runtime-main.b197a771.js",
+    "runtime-main.js.map": "/tienda_virtual_react/static/js/runtime-main.b197a771.js.map",
+    "static/js/2.aa003fe3.chunk.js": "/tienda_virtual_react/static/js/2.aa003fe3.chunk.js",
+    "static/js/2.aa003fe3.chunk.js.map": "/tienda_virtual_react/static/js/2.aa003fe3.chunk.js.map",
+    "index.html": "/tienda_virtual_react/index.html",
+    "static/js/2.aa003fe3.chunk.js.LICENSE.txt": "/tienda_virtual_react/static/js/2.aa003fe3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b197a771.js",
+    "static/js/2.aa003fe3.chunk.js",
+    "static/js/main.6cebdde9.chunk.js"
+  ]
+}
