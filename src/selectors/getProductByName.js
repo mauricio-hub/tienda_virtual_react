@@ -1,12 +1,12 @@
 import {productos} from '../data/productos'
 
 
-export const getProductByName = (nombre)=>{
+export const getProductByName = (tipo)=>{
 
-	if(nombre===''){
+	if(tipo===''){
 		return[];
 	}
 
-	nombre = nombre.toLocaleLowerCase();
-	return productos.filter(producto =>producto.nombre.toLocaleLowerCase().includes(nombre))
+	tipo = tipo.toLocaleLowerCase();
+	return productos.filter(producto =>producto.tipo.toLocaleLowerCase().includes(tipo))
 }

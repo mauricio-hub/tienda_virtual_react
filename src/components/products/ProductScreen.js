@@ -52,6 +52,7 @@ export const ProductScreen = ({history})=>{
 					<ul className= "list-group list-group-flush">
 						<li className="list-group-item"><b>Producto: </b>{nombre}</li>
 						<li className="list-group-item"><b>Marca: </b>{marca}</li>
+						<li className="list-group-item"><b>Descripcion: </b>{descripcion}</li>
 						<li className="list-group-item"><b>Talla disponibles: </b>{tallas}</li>
 						<li className="list-group-item"><b>Precio: </b>{Precio}</li>
 					</ul>

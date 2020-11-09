@@ -19,10 +19,10 @@ export const ProductCard = ({
 					</div>
 						<div  className="col-md-8" >
 							<div className="card-body">
-								<h5 className="card-title">{nombre}</h5>
-								<p className="card-text">{marca}</p>
-								<p className="card-text">{descripcion}</p>
-								<p className="card-text">{Precio}</p>
+								<p className="card-title"><strong>Tipo:</strong> {nombre}</p>
+								<p className="card-text"><strong>Marca:</strong> {marca}</p>
+								<p className="card-text"><strong>Descripcion:</strong> {descripcion}</p>
+								<p className="card-text"><strong>Precio:</strong>{Precio}</p>
 								<Link className="card-link" to={`./producto/${id}`}>Comprar</Link>
     							
 							</div>

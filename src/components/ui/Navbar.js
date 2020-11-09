@@ -30,7 +30,7 @@ export const Navbar = () => {
                         exact
                         to="/mens"
                     >
-                        MENS
+                        HOMBRES
                     </NavLink>
 
                     <NavLink 
@@ -39,7 +39,7 @@ export const Navbar = () => {
                         exact
                         to="/womens"
                     >
-                        WOMENS
+                        MUJERES
                     </NavLink>
 
                       <NavLink 
@@ -48,23 +48,12 @@ export const Navbar = () => {
                         exact
                         to="/search"
                     >
-                        BUSCAR
+                        BUSCAR PRODUCTO
                     </NavLink>
                 </div>
             </div>
 
-            <div className="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul className="navbar-nav ml-auto">
-                    <NavLink 
-                        activeClassName="active"
-                        className="nav-item nav-link" 
-                        exact
-                        to="/login"
-                    >
-                        LOGOUT
-                    </NavLink>
-                </ul>
-            </div>
+           
         </nav>
     )
 }
